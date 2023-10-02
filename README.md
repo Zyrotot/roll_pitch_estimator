@@ -12,7 +12,7 @@ This C++ program reads data from an input file, performs calculations to estimat
 
 To compile the program, use the following command-line format:
 ```bash
-	g++ main.cpp -o estimator
+g++ main.cpp -o estimator
 ```
 This will result in the `estimator` binary being created, to run the program, use the following command-line format:
 
@@ -28,7 +28,7 @@ The program expects an input file named attitude_exam.log, which should contain 
 
   
 ```
-	<timestamp_str;  accel_x_str;  accel_y_str;  accel_z_str>
+<timestamp_str;  accel_x_str;  accel_y_str;  accel_z_str>
 ```
   
   
@@ -43,7 +43,7 @@ The program generates an output file named output.log. This file contains lines 
 
   
 ```bash
-	<timestamp;  a_roll;  a_pitch>
+<timestamp;  a_roll;  a_pitch>
 ```
  - **`timestamp`**: The timestamp from the input file.
   - **`a_roll, a_pitch`**: The estimated roll and pitch angles in radians.
@@ -55,7 +55,7 @@ When comparison mode is enabled (by providing a flag of 1 as the argument), the 
 Example comparison output:
   
 ```bash
-	Roll: 0.123;
+Roll: 0.123;
 ```
 ## Error Handling
 
